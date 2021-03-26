@@ -96,4 +96,9 @@ public class Funcionario {
 	public void setUnidadeTrabalho(List<UnidadeTrabalho> unidadeTrabalho) {
 		this.unidadeTrabalho = unidadeTrabalho;
 	}
+	
+	@Override
+	public String toString() {
+		return super.toString();
+	}
 }
