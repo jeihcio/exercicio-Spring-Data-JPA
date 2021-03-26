@@ -99,6 +99,12 @@ public class Funcionario {
 	
 	@Override
 	public String toString() {
-		return super.toString();
+		return "Funcionario: " + 
+	           "id:" + id + 
+	           "| nome:'" + nome + 
+	           "| cpf:" + cpf + 
+	           "| salario:" + salario + 
+	           "| dataContratacao:" + dataContratacao + 
+	           "| cargo:" + cargo.getDescricao();
 	}
 }
